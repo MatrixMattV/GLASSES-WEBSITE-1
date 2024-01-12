@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-ksenia-chernaya-5766609.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: blue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.main-content button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 26px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    background: lightslategrey;
+    color: aliceblue;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    color: lightslategrey;
+    background-color: aliceblue;
+}
